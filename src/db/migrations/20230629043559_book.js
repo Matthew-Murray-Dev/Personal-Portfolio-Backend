@@ -3,12 +3,12 @@
  * @returns { Promise<void> }
  */
 exports.up = function(knex) {
-    return knex.schema.createTable("Book", (table) => {
+    return knex.schema.createTable("book", (table) => {
         table.increments("id").primary();
 table.string('title',225).notNullable();
 table.bigInteger('isbn',13).notNullable();
 table.integer("author_id").unsigned().nullable();
-table.foreign("author_id").references("Author.id").onDelete('CASCADE');
+table.foreign("author_id").references("author.id").onDelete('CASCADE');
 table.timestamps(true, true);
     });
 };
@@ -18,5 +18,5 @@ table.timestamps(true, true);
  * @returns { Promise<void> }
  */
 exports.down = function(knex) {
-    return knex.schema.dropTable("Book");
+    return knex.schema.dropTable("book");
 };

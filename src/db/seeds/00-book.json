@@ -1,0 +1,69 @@
+[
+  {
+    "author_id": 1,
+    "title": "The Shining",
+    "isbn": 9780345806789,
+    "created_at": "2023-06-29T19:37:40.896Z",
+    "updated_at": "2023-06-29T19:37:40.896Z"
+  },{
+    "author_id": 1,
+    "title": "Night Shift",
+    "isbn": 9780307947291,
+    "created_at": "2023-06-29T19:37:40.896Z",
+    "updated_at": "2023-06-29T19:37:40.896Z"
+  },{
+    "author_id": 3,
+    "title": "Jurassic Park",
+    "isbn": 9780394588162,
+    "created_at": "2023-06-29T19:37:40.896Z",
+    "updated_at": "2023-06-29T19:37:40.896Z"
+  },{
+    "author_id": 3,
+    "title": "The Andromeda Strain",
+    "isbn": 9780394415253,
+    "created_at": "2023-06-29T19:37:40.896Z",
+    "updated_at": "2023-06-29T19:37:40.896Z"
+  },{
+    "author_id": 3,
+    "title": "The Great Train Robbery",
+    "isbn": 9780804171281,
+    "created_at": "2023-06-29T19:37:40.896Z",
+    "updated_at": "2023-06-29T19:37:40.896Z"
+  },{
+    "author_id": 5,
+    "title": "The Brothers Karamazov",
+    "isbn": 9781513220710,
+    "created_at": "2023-06-29T19:37:40.896Z",
+    "updated_at": "2023-06-29T19:37:40.896Z"
+  },{
+    "author_id": 6,
+    "title": "Pride and Prejudice",
+    "isbn": 9780593622452,
+    "created_at": "2023-06-29T19:37:40.896Z",
+    "updated_at": "2023-06-29T19:37:40.896Z"
+  },{
+    "author_id": 7,
+    "title": "A Christmas Carol",
+    "isbn": 9780553212440,
+    "created_at": "2023-06-29T19:37:40.896Z",
+    "updated_at": "2023-06-29T19:37:40.896Z"
+  },{
+    "author_id": 8,
+    "title": "The Hobbit",
+    "isbn": 9780345445605,
+    "created_at": "2023-06-29T19:37:40.896Z",
+    "updated_at": "2023-06-29T19:37:40.896Z"
+  },{
+    "author_id": 9,
+    "title": "Candide",
+    "isbn": 9781513220642,
+    "created_at": "2023-06-29T19:37:40.896Z",
+    "updated_at": "2023-06-29T19:37:40.896Z"
+  },{
+    "author_id": 10,
+    "title": "Last Boat Out of Shanghai",
+    "isbn": 9780345522337,
+    "created_at": "2023-06-29T19:37:40.896Z",
+    "updated_at": "2023-06-29T19:37:40.896Z"
+  }
+]

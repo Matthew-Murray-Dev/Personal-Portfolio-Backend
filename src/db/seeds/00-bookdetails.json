@@ -1,0 +1,82 @@
+[
+  {
+    "book_id": 1,
+    "price": 14.46,
+    "discount": 3.54,
+    "is_hard_copy": false,
+    "created_at": "2023-06-29T19:37:40.896Z",
+    "updated_at": "2023-06-29T19:37:40.896Z"
+  },
+  {
+    "book_id": 2,
+    "price": 9.99,
+    "discount": 8.01,
+    "is_hard_copy": false,
+    "created_at": "2023-06-29T19:37:40.896Z",
+    "updated_at": "2023-06-29T19:37:40.896Z"
+  },
+  {
+    "book_id": 3,
+    "price": 45.00,
+    "discount": 22.99,
+    "is_hard_copy": true,
+    "created_at": "2023-06-29T19:37:40.896Z",
+    "updated_at": "2023-06-29T19:37:40.896Z"
+  },
+  {
+    "book_id": 4,
+    "price": 39.88,
+    "discount": 25.11,
+    "is_hard_copy": true,
+    "created_at": "2023-06-29T19:37:40.896Z",
+    "updated_at": "2023-06-29T19:37:40.896Z"
+  },
+  {
+    "book_id": 5,
+    "price": 25.99,
+    "discount": 20.00,
+    "is_hard_copy": true,
+    "created_at": "2023-06-29T19:37:40.896Z",
+    "updated_at": "2023-06-29T19:37:40.896Z"
+  },
+  {
+    "book_id": 6,
+    "price": 17.00,
+    "discount": 0,
+    "is_hard_copy": true,
+    "created_at": "2023-06-29T19:37:40.896Z",
+    "updated_at": "2023-06-29T19:37:40.896Z"
+  },
+  {
+    "book_id": 7,
+    "price": 3.95,
+    "discount": 0,
+    "is_hard_copy": false,
+    "created_at": "2023-06-29T19:37:40.896Z",
+    "updated_at": "2023-06-29T19:37:40.896Z"
+  },
+  {
+    "book_id": 8,
+    "price": 15.99,
+    "discount": 6.01,
+    "is_hard_copy": false,
+    "created_at": "2023-06-29T19:37:40.896Z",
+    "updated_at": "2023-06-29T19:37:40.896Z"
+  },
+  {
+    "book_id": 9,
+    "price": 10.99,
+    "discount": 0,
+    "is_hard_copy": false,
+    "created_at": "2023-06-29T19:37:40.896Z",
+    "updated_at": "2023-06-29T19:37:40.896Z"
+  },
+  {
+    "book_id": 10,
+    "price": 18.00,
+    "discount": 0,
+    "is_hard_copy": false,
+    "created_at": "2023-06-29T19:37:40.896Z",
+    "updated_at": "2023-06-29T19:37:40.896Z"
+  }
+]

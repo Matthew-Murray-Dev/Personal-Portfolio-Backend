@@ -3,7 +3,7 @@
  * @returns { Promise<void> }
  */
 exports.up = function(knex) {
-    return knex.schema.createTable("Country", (table) => {
+    return knex.schema.createTable("country", (table) => {
         table.increments("id").primary();
 table.string('name', 255).notNullable();
 table.string('code',3).notNullable();
@@ -17,5 +17,5 @@ table.timestamps(true, true);
  * @returns { Promise<void> }
  */
 exports.down = function(knex) {
-    return knex.schema.dropTable("Country");
+    return knex.schema.dropTable("country");
 };
