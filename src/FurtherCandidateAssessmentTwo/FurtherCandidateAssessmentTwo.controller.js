@@ -10,10 +10,9 @@ async function list(req, res) {
     const queryFour = await service.countBooksFromUSAAuthors()
     const queryFive = await service.listBooks20Discount30()
     const querySix = await service.listCheapestBookPerAuthor()
-
-
+    
     res.json({
-      queryOne,queryTwo,queryThree,queryFour,queryFive,querySix
+      data:{queryOne,queryTwo,queryThree,queryFour,queryFive,querySix}
     });
   }
 
