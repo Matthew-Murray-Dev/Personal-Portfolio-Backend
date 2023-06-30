@@ -8,13 +8,14 @@ const cors = require("cors");
 const errorHandler = require("./errors/errorHandler");
 const notFound = require("./errors/notFound");
 const titanDefRouter = require("./titanDef/titanDef.router");
+const projectsRouter = require("./Projects.router")
 const app = express();
 
 app.use(cors());
 app.use(express.json());
 
 app.use("/HW/TitanDef", titanDefRouter);
-
+app.use("/Projects",projectsRouter);
 app.use(notFound);
 app.use(errorHandler);
 
